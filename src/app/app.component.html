@@ -1,0 +1,18 @@
+<router-outlet />
+
+
+<div class="container">
+  <h1>My Todo List</h1>
+
+  <ul id="todo-list">
+    <!-- Angular's *ngFor directive to loop through todos -->
+    @for(todo of sortedTodos(); track todo.id) {
+      <li (click)="changeTodo(todo)" class="todo-item" [class.completed]="todo.completed">
+        <span class="todo-title">{{ todo.text }}</span>
+        <span class="todo-status" [ngClass]="{'completed': todo.completed, 'incomplete': !todo.completed}">
+          {{ todo.completed ? 'Completed' : 'Incomplete' }}
+        </span>
+      </li>
+    }
+  </ul>
+</div>

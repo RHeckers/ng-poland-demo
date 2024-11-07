@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "$id": "HttpServiceSchema",
+  "title": "TodoHttp Service Schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The name of the entity (in singular form)."
+    },
+    "pluralname": {
+      "type": "string",
+      "description": "The plural form of the entity name."
+    },
+    "path": {
+      "type": "string",
+      "description": "The path to create the service.",
+      "default": "src/app/services/http"
+    }
+  },
+  "required": ["name", "pluralname"]
+}

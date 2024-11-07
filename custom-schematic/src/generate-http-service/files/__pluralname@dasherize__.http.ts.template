@@ -1,0 +1,17 @@
+import { Injectable } from '@angular/core';
+import { GenericHttpService } from './generic-http.service';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class <%= classify(pluralname) %>HttpService extends GenericHttpService<<%= classify(name) %>Dto, <%= classify(name) %>Vm> {
+  override endpoint = '/<%= dasherize(pluralname) %>';
+}
+
+interface <%= classify(name) %>Dto {
+
+}
+
+interface <%= classify(name) %>Vm {
+
+}

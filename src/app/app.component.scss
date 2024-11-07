@@ -1,0 +1,89 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+ul#todo-list {
+  list-style-type: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+li.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ecf0f1;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+li.todo-item.completed {
+  background-color: #d1e7dd;
+}
+
+li.todo-item:not(.completed):hover {
+  background-color: #bdc3c7;
+}
+
+.todo-title {
+  font-size: 18px;
+}
+
+.todo-status {
+  font-size: 14px;
+  color: #7f8c8d;
+}
+
+.completed .todo-status {
+  color: #28a745;
+}
+
+.incomplete .todo-status {
+  color: #e74c3c;
+}
+
+.checkbox {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+@media (max-width: 600px) {
+  .container {
+      padding: 10px;
+  }
+
+  li.todo-item {
+      padding: 10px;
+  }
+
+  .todo-title {
+      font-size: 16px;
+  }
+}

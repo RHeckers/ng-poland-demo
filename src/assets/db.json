@@ -1,0 +1,148 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "todos": [
+    {
+      "userId": 1,
+      "id": "1",
+      "completed": true,
+      "title": "Make Slides"
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "completed": true,
+      "title": "Book flight"
+    },
+    {
+      "title": "Call the bank about mortgage rates",
+      "id": "3",
+      "userId": 1,
+      "completed": true
+    },
+    {
+      "title": "Schedule annual health check-up",
+      "id": "4",
+      "userId": 1,
+      "completed": true
+    },
+    {
+      "id": "5",
+      "userId": 1,
+      "completed": true,
+      "title": "Clean the garage"
+    },
+    {
+      "userId": 1,
+      "id": "6",
+      "completed": true,
+      "title": "Book flights for vacation"
+    },
+    {
+      "userId": 1,
+      "id": "7",
+      "title": "Attend team meeting at 3 PM",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "8",
+      "title": "Renew car insurance",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "9",
+      "title": "Prepare presentation slides",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "10",
+      "title": "Water the plants",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "11",
+      "title": "Update software on laptop",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "12",
+      "title": "Organize photo album",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "13",
+      "title": "Read chapter 5 of the book club selection",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "14",
+      "title": "Write thank-you notes",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "15",
+      "title": "Plan menu for dinner party",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "16",
+      "title": "Exercise for 30 minutes",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "17",
+      "title": "Research new investment opportunities",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "18",
+      "title": "Fix the kitchen sink leak",
+      "completed": true
+    },
+    {
+      "userId": 1,
+      "id": "19",
+      "title": "Set up meeting with mentor",
+      "completed": false
+    },
+    {
+      "userId": 1,
+      "id": "20",
+      "title": "Donate clothes to charity",
+      "completed": true
+    }
+  ]
+}
