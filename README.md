@@ -18,3 +18,5 @@ This is the demo project for Ng Poland.
 7. Open network conditions by clicking on the Wifi + gear icon 
 8. Toggle the network throtteling to offline and continue using the app
 9. Toggle back the network throtteling to no throtteling and evething should still work as expected
+
+!! When you make changes, browser cache can mess up the offline support, so after you make changes, close the window, open a new one and clear cache while online !!
